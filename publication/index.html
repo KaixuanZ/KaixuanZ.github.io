@@ -3,9 +3,5 @@ layout: default
 title: Kaixuan's Publications
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="publication">
-
-	  {% for publication in site.publications %}
-	    <li><span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a></li>
-	  {% endfor %}
-	</ul>
+	<p> A Large Dataset of Historical Japanese Documents with Complex Layouts <br>
+	Zejiang Shen, <strong>Kaixuan Zhang</strong>, Melissa Dell.  <em> Workshop at CVPR 2020</em> </p>
